@@ -1,4 +1,4 @@
-# 🔧 Installation
+# Installation
 
 This guide explains how to install sucata on Windows, macOS, and Linux, or build
 it from source.

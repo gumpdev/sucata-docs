@@ -2,27 +2,37 @@ site_name: Sucata
 site_url: https://sucata.dev
 theme:
   name: material
+  language: en
   logo: images/icon.png
   favicon: images/icon.png
   palette:
     scheme: slate
     primary: blue grey
-    accent: teal
+    scheme: slate
+    accent: light blue
   icon:
     repo: fontawesome/brands/git-alt
   features:
-    - header.autohide
     - search.suggest
     - search.highlight
     - search.share
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
 
 plugins:
   - search
 
 repo_url: https://github.com/gumpdev/sucata
 repo_name: gumpdev/sucata
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: Getting Started/installation.md
+  - About: about.md

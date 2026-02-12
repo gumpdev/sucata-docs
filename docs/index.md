@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+<div align="center">
+    <img src="images/icon.png" height="150" width="150" />
+</div>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<h1 align="center">Sucata</h1>
 
-## Commands
+<p align="center">
+    Gather yours scraps and recycle into a game! <br/>
+</p>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<div style="display:flex; justify-content: center; align-items: center; gap: 16px; margin-bottom: 8px">
+    <a href="/Getting%20Started/installation/"> Installation </a>
+    <a href="#"> Creating your first project </a>
+    <a href="#"> References </a>
+</div>
+<div style="display:flex; justify-content: center; align-items: center; gap: 16px">
+    <a href="#"> Examples </a>
+    <a target="_blank" href="https://github.com/gumpdev/sucata"> Repository </a>
+</div>
 
-## Project layout
+### Overview
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Sucata is a framework to create games using lua, with a simple workflow, relying
+just in lua codes.
+
+It designed using OOP on Lua, so works very well with
+[classic](https://github.com/rxi/classic)
