@@ -1,0 +1,4 @@
+site_name: Sucata
+site_url: https://sucata.dev
+theme:
+  name: material
