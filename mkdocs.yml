@@ -36,5 +36,7 @@ nav:
   - Getting Started:
       - Installation: getting-started/installation.md
       - Concepts: getting-started/concepts.md
-      - First Project: getting-started/first-project.md
+      - First Project:
+          - Overview: getting-started/first-project/overview.md
+          - Creating Project: getting-started/first-project/creating-project.md
   - About: about.md
