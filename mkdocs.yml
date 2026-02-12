@@ -38,5 +38,6 @@ nav:
       - Concepts: getting-started/concepts.md
       - First Project:
           - Overview: getting-started/first-project/overview.md
-          - Creating Project: getting-started/first-project/creating-project.md
+          - Configuring the Project: getting-started/first-project/configuring-project.md
+          - Creating the Player: getting-started/first-project/creating-player.md
   - About: about.md
