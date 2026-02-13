@@ -3,7 +3,7 @@
 ## Starting
 
 First of all, make sure to have the sucata engine installed, you can follow the
-installation guide in the [installation page](./installation.md).
+installation guide in the [installation page](../installation.md).
 
 To make sure that sucata is installed correctly, you can run the following
 command in your terminal:

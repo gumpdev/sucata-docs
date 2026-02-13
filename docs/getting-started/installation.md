@@ -12,9 +12,11 @@ dependencies.
 
 1. Open PowerShell.
 2. Run the following command:
-   ```powershell
-   irm https://raw.githubusercontent.com/gumpdev/sucata/refs/heads/main/install_windows.ps1 | iex
-   ```
+
+```powershell
+irm https://raw.githubusercontent.com/gumpdev/sucata/refs/heads/main/install_windows.ps1 | iex
+```
+
 3. Restart your terminal.
 4. Now you can use the command `sucata` in your terminal.
 
@@ -26,9 +28,11 @@ dependencies.
 
 1. Open your terminal.
 2. Run the following command:
-   ```bash
-   curl -fsSL https://raw.githubusercontent.com/gumpdev/sucata/refs/heads/main/install_unix.sh | sh
-   ```
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gumpdev/sucata/refs/heads/main/install_unix.sh | sh
+```
+
 3. Restart your terminal.
 4. Now you can use the command `sucata` in your terminal.
 
