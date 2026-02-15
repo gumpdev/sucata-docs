@@ -8,10 +8,10 @@ The filesystem module of the Sucata.
 
 Checks if a file or directory exists.
 
-### parameters
+**parameters**
 - path `string` - Path of the file or directory to check  
 
-### return
+**return**
 - exists `boolean` - `true` if the file/directory exists, `false` otherwise  
 
 ---
@@ -20,7 +20,7 @@ Checks if a file or directory exists.
 
 Removes a file or directory.
 
-### parameters
+**parameters**
 - path `string` - Path of the file or directory to remove  
 
 ---
@@ -29,7 +29,7 @@ Removes a file or directory.
 
 Creates a new directory.
 
-### parameters
+**parameters**
 - path `string` - Path of the directory to create  
 
 ---
@@ -38,10 +38,10 @@ Creates a new directory.
 
 Reads the contents of a file as a string.
 
-### parameters
+**parameters**
 - path `string` - Path of the file to read  
 
-### return
+**return**
 - content `string | nil` - The file contents as a string, or `nil` on error  
 
 ---
@@ -50,10 +50,10 @@ Reads the contents of a file as a string.
 
 Lists the contents of a directory.
 
-### parameters
+**parameters**
 - path `string` - Path of the directory to read  
 
-### return
+**return**
 - files `table | nil` - Table with file/directory names, or `nil` on error  
 
 ---
@@ -62,11 +62,11 @@ Lists the contents of a directory.
 
 Writes content to a file.
 
-### parameters
+**parameters**
 - path `string` - Path of the file to write  
 - content `string` - Content to write to the file  
 
-### return
+**return**
 - success `boolean` - `true` if the write was successful, `false` otherwise  
 
 ---
@@ -75,6 +75,6 @@ Writes content to a file.
 
 Renames a file or directory.
 
-### parameters
+**parameters**
 - old_path `string` - Current path of the file or directory  
 - new_path `string` - New path of the file or directory  

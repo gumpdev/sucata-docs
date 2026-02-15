@@ -9,9 +9,9 @@
 </p>
 
 <div style="display:flex; justify-content: center; align-items: center; gap: 16px; margin-bottom: 8px">
-    <a href="/Getting%20Started/installation/"> Installation </a>
-    <a href="#"> Creating your first project </a>
-    <a href="#"> References </a>
+    <a href="/getting-started/installation/"> Installation </a>
+    <a href="/getting-started/first-project/overview/"> Creating your first project </a>
+    <a href="/references/sucata.audio/"> References </a>
 </div>
 <div style="display:flex; justify-content: center; align-items: center; gap: 16px">
     <a href="#"> Examples </a>

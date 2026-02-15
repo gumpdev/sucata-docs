@@ -45,7 +45,7 @@ Gamepad button names.
 
 Gets the number of currently connected gamepads.
 
-### return
+**return**
 - count `number` - The number of gamepads connected  
 
 ---
@@ -54,11 +54,11 @@ Gets the number of currently connected gamepads.
 
 Gets the axis value of a gamepad.
 
-### parameters
+**parameters**
 - axis `Axis` - The gamepad axis  
 - device? `number` - The number of the device (optional)  
 
-### return
+**return**
 - value `number` - The value of the axis  
 - device_used `number` - The device used  
 
@@ -68,11 +68,11 @@ Gets the axis value of a gamepad.
 
 Checks if a button is currently held on the gamepad.
 
-### parameters
+**parameters**
 - button `Button` - The gamepad button  
 - device? `number` - The number of the device (optional)  
 
-### return
+**return**
 - value `boolean` - `true` if the button is currently held  
 - device_used `number` - The device used  
 
@@ -82,11 +82,11 @@ Checks if a button is currently held on the gamepad.
 
 Checks if a button was pressed on the gamepad (only on the frame it was pressed).
 
-### parameters
+**parameters**
 - button `Button` - The gamepad button  
 - device? `number` - The number of the device (optional)  
 
-### return
+**return**
 - value `boolean` - `true` if the button is pressed  
 - device_used `number` - The device used  
 
@@ -96,10 +96,10 @@ Checks if a button was pressed on the gamepad (only on the frame it was pressed)
 
 Checks if a button was released on the gamepad.
 
-### parameters
+**parameters**
 - button `Button` - The gamepad button  
 - device? `number` - The number of the device (optional)  
 
-### return
+**return**
 - value `boolean` - `true` if the button is released  
 - device_used `number` - The device used  

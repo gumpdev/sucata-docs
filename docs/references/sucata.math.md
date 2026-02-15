@@ -32,12 +32,12 @@ Represents a rectangle using screen-relative percentages (0–1).
 
 Clamps a value between a minimum and maximum.
 
-### parameters
+**parameters**
 - value `number` - The value to clamp  
 - min `number` - The minimum value  
 - max `number` - The maximum value  
 
-### return
+**return**
 - clamped `number` - The clamped value  
 
 ---
@@ -46,11 +46,11 @@ Clamps a value between a minimum and maximum.
 
 Calculates the distance between two points.
 
-### parameters
+**parameters**
 - point1 `table` - First point with `x` and `y` fields  
 - point2 `table` - Second point with `x` and `y` fields  
 
-### return
+**return**
 - distance `number` - The distance between the points  
 
 ---
@@ -59,12 +59,12 @@ Calculates the distance between two points.
 
 Performs linear interpolation between two values.
 
-### parameters
+**parameters**
 - a `number` - The start value  
 - b `number` - The end value  
 - t `number` - The interpolation factor (0–1)  
 
-### return
+**return**
 - result `number` - The interpolated value  
 
 ---
@@ -73,11 +73,11 @@ Performs linear interpolation between two values.
 
 Checks if two rectangles are overlapping and returns the intersection.
 
-### parameters
+**parameters**
 - rect1 `Rect` - First rectangle with `x`, `y`, `width`, `height`  
 - rect2 `Rect` - Second rectangle with `x`, `y`, `width`, `height`  
 
-### return
+**return**
 - overlapping `boolean` - Whether the rectangles overlap  
 - intersection `Rect | nil` - The intersection rectangle if overlapping, `nil` otherwise  
 
@@ -87,10 +87,10 @@ Checks if two rectangles are overlapping and returns the intersection.
 
 Converts screen-relative coordinates to pixel coordinates.
 
-### parameters
+**parameters**
 - rect `ScreenRelativeRect` - Rectangle with `top`, `left`, `right`, `bottom` as percentages (0–1)  
 
-### return
+**return**
 - x `number` - The x position in pixels  
 - y `number` - The y position in pixels  
 - width `number` - The width in pixels  
@@ -102,12 +102,12 @@ Converts screen-relative coordinates to pixel coordinates.
 
 Converts time into integer steps based on an interval.
 
-### parameters
+**parameters**
 - current_time `number` - The current time (accumulated delta time)  
 - interval `number` - The interval time in seconds  
 - max_time? `number` - The maximum time to cap the result (optional)  
 
-### return
+**return**
 - index `number` - The calculated integer index  
 
 ---
@@ -116,10 +116,10 @@ Converts time into integer steps based on an interval.
 
 Normalizes a vector (accepts a variable number of components).
 
-### parameters
+**parameters**
 - ... `number` - Vector components (`x`, `y`, `z`, etc.)  
 
-### return
+**return**
 - ... `number` - Normalized vector components (same count as input)  
 
 ---
@@ -128,10 +128,10 @@ Normalizes a vector (accepts a variable number of components).
 
 Moves a value towards a target by a maximum step.
 
-### parameters
+**parameters**
 - current `number` - The current value  
 - target `number` - The target value  
 - step `number` - The maximum step to move per call  
 
-### return
+**return**
 - result `number` - The new value moved towards the target  

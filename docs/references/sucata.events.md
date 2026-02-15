@@ -42,7 +42,7 @@ An `Entity` can contain lifecycle functions and any custom properties defined by
 
 Emits an event with the given name and optional data.
 
-### parameters
+**parameters**
 - name `string` - The name of the event  
 - data `table` - Additional data to pass with the event  
 
@@ -52,7 +52,7 @@ Emits an event with the given name and optional data.
 
 Registers a handler for an event.
 
-### parameters
+**parameters**
 - owner `string | Entity` - The entity owner of the handler (can be an entity table or entity ID)  
 - name `string` - The name of the event  
 - callback `function` - The function to call when the event is emitted  

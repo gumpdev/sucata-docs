@@ -8,7 +8,7 @@ The audio module of the Sucata.
 
 Plays a sound and returns its ID.
 
-### parameters
+**parameters**
 - props `table` - Properties for the audio
   - sound `string` - Path to the sound file
   - volume? `number` - Volume of the sound (default: 1.0)
@@ -16,7 +16,7 @@ Plays a sound and returns its ID.
   - group? `string` - Audio group (default: "default")
   - loop? `boolean` - Whether the sound should loop (default: false)
 
-### return
+**return**
 - sound_id `number` - The ID of the playing sound
 
 ---
@@ -25,7 +25,7 @@ Plays a sound and returns its ID.
 
 Stops a playing sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound to stop
 
 ---
@@ -34,7 +34,7 @@ Stops a playing sound.
 
 Pauses a playing sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound to pause
 
 ---
@@ -43,7 +43,7 @@ Pauses a playing sound.
 
 Unpauses a paused sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound to unpause
 
 ---
@@ -52,10 +52,10 @@ Unpauses a paused sound.
 
 Gets the volume of a specific sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound
 
-### return
+**return**
 - volume `number` - The current volume of the sound
 
 ---
@@ -64,7 +64,7 @@ Gets the volume of a specific sound.
 
 Sets the volume of a specific sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound
 - volume `number` - The new volume level
 
@@ -74,10 +74,10 @@ Sets the volume of a specific sound.
 
 Gets the pitch of a specific sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound
 
-### return
+**return**
 - pitch `number` - The current pitch of the sound
 
 ---
@@ -86,7 +86,7 @@ Gets the pitch of a specific sound.
 
 Sets the pitch of a specific sound.
 
-### parameters
+**parameters**
 - sound_id `number` - The ID of the sound
 - pitch `number` - The new pitch level
 
@@ -96,10 +96,10 @@ Sets the pitch of a specific sound.
 
 Gets the volume of an audio group.
 
-### parameters
+**parameters**
 - group_id `string` - The ID of the audio group
 
-### return
+**return**
 - volume `number` - The current volume of the group
 
 ---
@@ -108,7 +108,7 @@ Gets the volume of an audio group.
 
 Sets the volume of an audio group.
 
-### parameters
+**parameters**
 - group_id `string` - The ID of the audio group
 - volume `number` - The new volume level
 
@@ -118,10 +118,10 @@ Sets the volume of an audio group.
 
 Gets the pitch of an audio group.
 
-### parameters
+**parameters**
 - group_id `string` - The ID of the audio group
 
-### return
+**return**
 - pitch `number` - The current pitch of the group
 
 ---
@@ -130,6 +130,6 @@ Gets the pitch of an audio group.
 
 Sets the pitch of an audio group.
 
-### parameters
+**parameters**
 - group_id `string` - The ID of the audio group
 - pitch `number` - The new pitch level

@@ -28,7 +28,7 @@ Configuration table used to create timers.
 
 Gets the delta time (time elapsed since last frame) in seconds, multiplied by the current time scale.
 
-### return
+**return**
 - delta `number` - The delta time in seconds  
 
 ---
@@ -37,7 +37,7 @@ Gets the delta time (time elapsed since last frame) in seconds, multiplied by th
 
 Gets the current frames per second.
 
-### return
+**return**
 - fps `number` - The current FPS  
 
 ---
@@ -46,11 +46,11 @@ Gets the current frames per second.
 
 Creates a timer with a callback function.
 
-### parameters
+**parameters**
 - callback `function` - The function to call when the timer expires  
 - config `number | Timer` - Timer duration in seconds, or a timer configuration table  
 
-### return
+**return**
 - timer_id `string` - The ID of the created timer  
 
 ---
@@ -59,7 +59,7 @@ Creates a timer with a callback function.
 
 Pauses a timer.
 
-### parameters
+**parameters**
 - timer_id `string` - The ID of the timer to pause  
 
 ---
@@ -68,7 +68,7 @@ Pauses a timer.
 
 Stops a timer.
 
-### parameters
+**parameters**
 - timer_id `string` - The ID of the timer to stop  
 
 ---
@@ -77,7 +77,7 @@ Stops a timer.
 
 Gets the current time scale value.
 
-### return
+**return**
 - time_scale `number` - The current time scale value  
 
 ---
@@ -86,5 +86,5 @@ Gets the current time scale value.
 
 Sets the time scale.
 
-### parameters
+**parameters**
 - time_scale `number` - The new time scale value  

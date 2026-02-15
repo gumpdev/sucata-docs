@@ -42,7 +42,7 @@ An `Entity` can contain lifecycle functions and any custom properties defined by
 
 Loads a scene with the given entities.
 
-### parameters
+**parameters**
 - entities `Entity[]` - Array of entity tables to load into the scene  
 
 ---
@@ -51,10 +51,10 @@ Loads a scene with the given entities.
 
 Spawns an entity in the scene.
 
-### parameters
+**parameters**
 - entity `Entity` - The entity table to spawn  
 
-### return
+**return**
 - entity_id `string` - The ID of the spawned entity  
 
 ---
@@ -63,10 +63,10 @@ Spawns an entity in the scene.
 
 Spawns multiple entities in the scene.
 
-### parameters
+**parameters**
 - entities `Entity[]` - Array of entity tables to spawn  
 
-### return
+**return**
 - entity_ids `string[]` - Array of IDs of the spawned entities  
 
 ---
@@ -75,10 +75,10 @@ Spawns multiple entities in the scene.
 
 Finds an entity by its ID.
 
-### parameters
+**parameters**
 - entity_id `string` - The ID of the entity to find  
 
-### return
+**return**
 - entity `Entity | nil` - The entity table or `nil` if not found  
 
 ---
@@ -87,10 +87,10 @@ Finds an entity by its ID.
 
 Destroys an entity from the scene.
 
-### parameters
+**parameters**
 - entity_or_id `Entity | string` - The entity table or entity ID to destroy  
 
-### return
+**return**
 - success `boolean` - Whether the entity was successfully destroyed  
 
 ---
@@ -99,10 +99,10 @@ Destroys an entity from the scene.
 
 Destroys multiple entities from the scene.
 
-### parameters
+**parameters**
 - entities `Entity[]` - Array of entity tables to destroy  
 
-### return
+**return**
 - undestroyed_ids `string[]` - Array of IDs of entities that could not be destroyed  
 
 ---
@@ -111,11 +111,11 @@ Destroys multiple entities from the scene.
 
 Adds a tag to an entity.
 
-### parameters
+**parameters**
 - entity_or_id `Entity | string` - The entity table or entity ID  
 - tag `string` - The tag to add  
 
-### return
+**return**
 - success `boolean` - Whether the tag was successfully added  
 
 ---
@@ -124,11 +124,11 @@ Adds a tag to an entity.
 
 Checks if an entity has a tag.
 
-### parameters
+**parameters**
 - entity_or_id `Entity | string` - The entity table or entity ID  
 - tag `string` - The tag to check  
 
-### return
+**return**
 - success `boolean` - Whether the entity has the tag  
 
 ---
@@ -137,11 +137,11 @@ Checks if an entity has a tag.
 
 Removes a tag from an entity.
 
-### parameters
+**parameters**
 - entity_id `string` - The ID of the entity  
 - tag `string` - The tag to remove  
 
-### return
+**return**
 - success `boolean` - Whether the tag was successfully removed  
 
 ---
@@ -150,7 +150,7 @@ Removes a tag from an entity.
 
 Gets all entity IDs in the scene.
 
-### return
+**return**
 - entity_ids `string[]` - Array of all entity IDs in the scene  
 
 ---
@@ -159,10 +159,10 @@ Gets all entity IDs in the scene.
 
 Gets all entity IDs with a specific tag.
 
-### parameters
+**parameters**
 - tag `string` - The tag to filter by  
 
-### return
+**return**
 - entity_ids `string[]` - Array of entity IDs with the given tag  
 
 ---
