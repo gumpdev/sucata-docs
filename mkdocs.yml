@@ -54,6 +54,5 @@ nav:
     - sucata.scene: references/sucata.scene.md
     - sucata.time: references/sucata.time.md
     - sucata.window: references/sucata.window.md
-  - About: 
-    - About: about/about.md
-    - Third Party: about/third-party.md
+  - Third Party: third-party.md
+  - About: about.md
