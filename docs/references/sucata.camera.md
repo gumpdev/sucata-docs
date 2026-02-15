@@ -9,6 +9,7 @@ Camera module of the Sucata.
 Gets the current camera position.
 
 **return**
+
 - x `number` - X coordinate of the camera position  
 - y `number` - Y coordinate of the camera position  
 
@@ -19,6 +20,7 @@ Gets the current camera position.
 Sets the camera position.
 
 **parameters**
+
 - x `number` - X coordinate of the camera position  
 - y `number` - Y coordinate of the camera position  
 
@@ -29,6 +31,7 @@ Sets the camera position.
 Gets the current camera rotation.
 
 **return**
+
 - rotation `number` - Camera rotation in radians  
 
 ---
@@ -38,6 +41,7 @@ Gets the current camera rotation.
 Sets the camera rotation.
 
 **parameters**
+
 - rotation `number` - Camera rotation in radians  
 
 ---
@@ -47,6 +51,7 @@ Sets the camera rotation.
 Gets the current camera zoom.
 
 **return**
+
 - zoom `number` - Camera zoom level  
 
 ---
@@ -56,4 +61,5 @@ Gets the current camera zoom.
 Sets the camera zoom.
 
 **parameters**
+
 - zoom `number` - Camera zoom level  

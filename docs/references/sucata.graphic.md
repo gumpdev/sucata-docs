@@ -70,6 +70,7 @@ Properties used to draw text.
 Draws a rectangle.
 
 **parameters**
+
 - props `RectProps` - Properties for the rectangle  
 
 ---
@@ -79,6 +80,7 @@ Draws a rectangle.
 Draws text.
 
 **parameters**
+
 - props `TextProps` - Properties for the text  
 
 ---
@@ -88,6 +90,7 @@ Draws text.
 Sets the background color of the window.
 
 **parameters**
+
 - color `string` - Hex color string (e.g., `"#RRGGBB"` or `"#RRGGBBAA"`)  
 
 ---
@@ -97,8 +100,10 @@ Sets the background color of the window.
 Loads a Sucata shader.
 
 **parameters**
+
 - path `string` - File path to the Sucata shader  
 - name? `string` - Optional shader name  
 
 **return**
+
 - shader_name `string` - The name of the shader  

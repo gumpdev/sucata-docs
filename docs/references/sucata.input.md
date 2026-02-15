@@ -9,6 +9,7 @@ The input module of the Sucata.
 Input key and button names.
 
 **values**
+
 - `"mouse_left"`
 - `"mouse_right"`
 - `"mouse_middle"`
@@ -35,6 +36,7 @@ Input key and button names.
 Gets the current mouse position.
 
 **return**
+
 - x `number` - The x coordinate of the mouse  
 - y `number` - The y coordinate of the mouse  
 
@@ -45,6 +47,7 @@ Gets the current mouse position.
 Gets the current mouse scroll values.
 
 **return**
+
 - x `number` - The horizontal scroll value  
 - y `number` - The vertical scroll value  
 
@@ -55,6 +58,7 @@ Gets the current mouse scroll values.
 Gets the last pressed key character code.
 
 **return**
+
 - key_code `number` - The character code of the last pressed key  
 
 ---
@@ -64,9 +68,11 @@ Gets the last pressed key character code.
 Checks if any of the given keys or buttons were pressed this frame.
 
 **parameters**
+
 - ... `Key` - Key or button names to check  
 
 **return**
+
 - pressed `boolean` - Whether any of the keys/buttons were pressed  
 
 ---
@@ -76,9 +82,11 @@ Checks if any of the given keys or buttons were pressed this frame.
 Checks if any of the given keys or buttons are currently held down.
 
 **parameters**
+
 - ... `Key` - Key or button names to check  
 
 **return**
+
 - held `boolean` - Whether any of the keys/buttons are held  
 
 ---
@@ -88,9 +96,11 @@ Checks if any of the given keys or buttons are currently held down.
 Checks if any of the given keys or buttons were released this frame.
 
 **parameters**
+
 - ... `Key` - Key or button names to check  
 
 **return**
+
 - released `boolean` - Whether any of the keys/buttons were released  
 
 ---
@@ -100,6 +110,7 @@ Checks if any of the given keys or buttons were released this frame.
 Checks if the mouse is hovering over a specific area for an entity.
 
 **parameters**
+
 - entity `string | table` - The entity ID or entity table  
 - area `table`
   - x `number` - X position of the area  
@@ -110,4 +121,5 @@ Checks if the mouse is hovering over a specific area for an entity.
   - fixed? `boolean` - Whether the area is fixed to the screen (optional)  
 
 **return**
+
 - hovering `boolean` - Whether the mouse is hovering over the specified area  
