@@ -8,7 +8,7 @@ The math module of the Sucata.
 
 Represents a rectangle in 2D space.
 
-### fields
+**fields**
 - x `number` - The x position  
 - y `number` - The y position  
 - width `number` - The width  
@@ -20,7 +20,7 @@ Represents a rectangle in 2D space.
 
 Represents a rectangle using screen-relative percentages (0–1).
 
-### fields
+**fields**
 - top? `number` - Top position as percentage (0–1) (default: 0)  
 - left? `number` - Left position as percentage (0–1) (default: 0)  
 - right? `number` - Right position as percentage (0–1) (default: 0)  
@@ -28,7 +28,7 @@ Represents a rectangle using screen-relative percentages (0–1).
 
 ---
 
-## sucata.math.clamp(value, min, max)
+## sucata.math.clamp
 
 Clamps a value between a minimum and maximum.
 
@@ -42,7 +42,7 @@ Clamps a value between a minimum and maximum.
 
 ---
 
-## sucata.math.distance(point1, point2)
+## sucata.math.distance
 
 Calculates the distance between two points.
 
@@ -55,7 +55,7 @@ Calculates the distance between two points.
 
 ---
 
-## sucata.math.lerp(a, b, t)
+## sucata.math.lerp
 
 Performs linear interpolation between two values.
 
@@ -69,7 +69,7 @@ Performs linear interpolation between two values.
 
 ---
 
-## sucata.math.overlapping(rect1, rect2)
+## sucata.math.overlapping
 
 Checks if two rectangles are overlapping and returns the intersection.
 
@@ -83,7 +83,7 @@ Checks if two rectangles are overlapping and returns the intersection.
 
 ---
 
-## sucata.math.screen_relative(rect)
+## sucata.math.screen_relative
 
 Converts screen-relative coordinates to pixel coordinates.
 
@@ -98,7 +98,7 @@ Converts screen-relative coordinates to pixel coordinates.
 
 ---
 
-## sucata.math.smooth_index(current_time, interval, max_time?)
+## sucata.math.smooth_index
 
 Converts time into integer steps based on an interval.
 
@@ -112,7 +112,7 @@ Converts time into integer steps based on an interval.
 
 ---
 
-## sucata.math.normalize(...)
+## sucata.math.normalize
 
 Normalizes a vector (accepts a variable number of components).
 
@@ -124,7 +124,7 @@ Normalizes a vector (accepts a variable number of components).
 
 ---
 
-## sucata.math.move_towards(current, target, step)
+## sucata.math.move_towards
 
 Moves a value towards a target by a maximum step.
 

@@ -8,7 +8,7 @@ The graphic module of the Sucata.
 
 Properties used to draw a rectangle.
 
-### fields
+**fields**
 - x? `number` - The x position (default: 0)  
 - y? `number` - The y position (default: 0)  
 - width? `number` - The width (default: 50)  
@@ -41,7 +41,7 @@ Properties used to draw a rectangle.
 
 Properties used to draw text.
 
-### fields
+**fields**
 - x? `number` - The x position (default: 0)  
 - y? `number` - The y position (default: 0)  
 - text? `string` - The text to display (default: "")  
@@ -65,7 +65,7 @@ Properties used to draw text.
 
 ---
 
-## sucata.graphic.draw_rect(props)
+## sucata.graphic.draw_rect
 
 Draws a rectangle.
 
@@ -74,7 +74,7 @@ Draws a rectangle.
 
 ---
 
-## sucata.graphic.draw_text(props)
+## sucata.graphic.draw_text
 
 Draws text.
 
@@ -83,7 +83,7 @@ Draws text.
 
 ---
 
-## sucata.graphic.set_background_color(color)
+## sucata.graphic.set_background_color
 
 Sets the background color of the window.
 
@@ -92,7 +92,7 @@ Sets the background color of the window.
 
 ---
 
-## sucata.graphic.load_shader(path, name?)
+## sucata.graphic.load_shader
 
 Loads a Sucata shader.
 

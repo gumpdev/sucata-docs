@@ -4,7 +4,7 @@ The window module of the Sucata game engine.
 
 ---
 
-## sucata.window.set_mouse_lock(locked)
+## sucata.window.set_mouse_lock
 
 Sets whether the mouse cursor is locked to the window.
 
@@ -13,7 +13,7 @@ Sets whether the mouse cursor is locked to the window.
 
 ---
 
-## sucata.window.get_mouse_lock()
+## sucata.window.get_mouse_lock
 
 Gets whether the mouse cursor is locked to the window.
 
@@ -22,7 +22,7 @@ Gets whether the mouse cursor is locked to the window.
 
 ---
 
-## sucata.window.set_mouse_visible(visible)
+## sucata.window.set_mouse_visible
 
 Sets whether the mouse cursor is visible.
 
@@ -31,7 +31,7 @@ Sets whether the mouse cursor is visible.
 
 ---
 
-## sucata.window.get_mouse_visible()
+## sucata.window.get_mouse_visible
 
 Gets whether the mouse cursor is visible.
 
@@ -40,7 +40,7 @@ Gets whether the mouse cursor is visible.
 
 ---
 
-## sucata.window.set_window_title(title)
+## sucata.window.set_window_title
 
 Sets the window title.
 
@@ -49,7 +49,7 @@ Sets the window title.
 
 ---
 
-## sucata.window.get_window_title()
+## sucata.window.get_window_title
 
 Gets the current window title.
 
@@ -58,7 +58,7 @@ Gets the current window title.
 
 ---
 
-## sucata.window.set_window_size(width, height)
+## sucata.window.set_window_size
 
 Sets the window size.
 
@@ -68,7 +68,7 @@ Sets the window size.
 
 ---
 
-## sucata.window.get_window_size()
+## sucata.window.get_window_size
 
 Gets the current window size.
 
@@ -78,7 +78,7 @@ Gets the current window size.
 
 ---
 
-## sucata.window.set_fullscreen(fullscreen)
+## sucata.window.set_fullscreen
 
 Sets whether the window is in fullscreen mode.
 
@@ -87,7 +87,7 @@ Sets whether the window is in fullscreen mode.
 
 ---
 
-## sucata.window.get_fullscreen()
+## sucata.window.get_fullscreen
 
 Gets whether the window is in fullscreen mode.
 
@@ -96,7 +96,7 @@ Gets whether the window is in fullscreen mode.
 
 ---
 
-## sucata.window.set_vsync(vsync)
+## sucata.window.set_vsync
 
 Sets the vsync mode.
 
@@ -105,7 +105,7 @@ Sets the vsync mode.
 
 ---
 
-## sucata.window.get_vsync()
+## sucata.window.get_vsync
 
 Gets the current vsync mode.
 
@@ -114,13 +114,13 @@ Gets the current vsync mode.
 
 ---
 
-## sucata.window.quit()
+## sucata.window.quit
 
 Quits the application.
 
 ---
 
-## sucata.window.show_debug_info(show)
+## sucata.window.show_debug_info
 
 Sets whether to show debug information.
 
@@ -129,7 +129,7 @@ Sets whether to show debug information.
 
 ---
 
-## sucata.window.set_keep_aspect(keep)
+## sucata.window.set_keep_aspect
 
 Sets whether to keep the aspect ratio with black bars.
 
@@ -141,7 +141,7 @@ Sets whether to keep the aspect ratio with black bars.
 
 ---
 
-## sucata.window.get_keep_aspect()
+## sucata.window.get_keep_aspect
 
 Gets whether the window keeps aspect ratio with black bars.
 
@@ -153,7 +153,7 @@ Gets whether the window keeps aspect ratio with black bars.
 
 ---
 
-## sucata.window.set_window_icon(path)
+## sucata.window.set_window_icon
 
 Sets the window icon from a file path.
 
@@ -162,7 +162,7 @@ Sets the window icon from a file path.
 
 ---
 
-## sucata.window.get_window_icon()
+## sucata.window.get_window_icon
 
 Gets the current window icon path.
 

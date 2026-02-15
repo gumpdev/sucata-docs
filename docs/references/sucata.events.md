@@ -10,7 +10,7 @@ Represents a game object in the Sucata engine.
 
 An `Entity` can contain lifecycle functions and any custom properties defined by the user.
 
-### fields
+**fields**
 
 - id? `string`  
   The unique identifier of the entity.  
@@ -38,7 +38,7 @@ An `Entity` can contain lifecycle functions and any custom properties defined by
 
 ---
 
-## sucata.events.emit(name, data)
+## sucata.events.emit
 
 Emits an event with the given name and optional data.
 
@@ -48,7 +48,7 @@ Emits an event with the given name and optional data.
 
 ---
 
-## sucata.events.on(owner, name, callback)
+## sucata.events.on
 
 Registers a handler for an event.
 

@@ -8,7 +8,7 @@ The input module of the Sucata.
 
 Input key and button names.
 
-### values
+**values**
 - `"mouse_left"`
 - `"mouse_right"`
 - `"mouse_middle"`
@@ -30,7 +30,7 @@ Input key and button names.
 
 ---
 
-## sucata.input.get_mouse_position()
+## sucata.input.get_mouse_position
 
 Gets the current mouse position.
 
@@ -40,7 +40,7 @@ Gets the current mouse position.
 
 ---
 
-## sucata.input.get_mouse_scroll()
+## sucata.input.get_mouse_scroll
 
 Gets the current mouse scroll values.
 
@@ -50,7 +50,7 @@ Gets the current mouse scroll values.
 
 ---
 
-## sucata.input.get_key()
+## sucata.input.get_key
 
 Gets the last pressed key character code.
 
@@ -59,7 +59,7 @@ Gets the last pressed key character code.
 
 ---
 
-## sucata.input.is_pressed(...)
+## sucata.input.is_pressed
 
 Checks if any of the given keys or buttons were pressed this frame.
 
@@ -71,7 +71,7 @@ Checks if any of the given keys or buttons were pressed this frame.
 
 ---
 
-## sucata.input.is_held(...)
+## sucata.input.is_held
 
 Checks if any of the given keys or buttons are currently held down.
 
@@ -83,7 +83,7 @@ Checks if any of the given keys or buttons are currently held down.
 
 ---
 
-## sucata.input.is_released(...)
+## sucata.input.is_released
 
 Checks if any of the given keys or buttons were released this frame.
 
@@ -95,7 +95,7 @@ Checks if any of the given keys or buttons were released this frame.
 
 ---
 
-## sucata.input.is_hover(entity, area)
+## sucata.input.is_hover
 
 Checks if the mouse is hovering over a specific area for an entity.
 

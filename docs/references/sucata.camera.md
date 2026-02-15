@@ -4,7 +4,7 @@ Camera module of the Sucata.
 
 ---
 
-## sucata.camera.get_camera_position()
+## sucata.camera.get_camera_position
 
 Gets the current camera position.
 
@@ -14,7 +14,7 @@ Gets the current camera position.
 
 ---
 
-## sucata.camera.set_camera_position(x, y)
+## sucata.camera.set_camera_position
 
 Sets the camera position.
 
@@ -24,7 +24,7 @@ Sets the camera position.
 
 ---
 
-## sucata.camera.get_camera_rotation()
+## sucata.camera.get_camera_rotation
 
 Gets the current camera rotation.
 
@@ -33,7 +33,7 @@ Gets the current camera rotation.
 
 ---
 
-## sucata.camera.set_camera_rotation(rotation)
+## sucata.camera.set_camera_rotation
 
 Sets the camera rotation.
 
@@ -42,7 +42,7 @@ Sets the camera rotation.
 
 ---
 
-## sucata.camera.get_camera_zoom()
+## sucata.camera.get_camera_zoom
 
 Gets the current camera zoom.
 
@@ -51,7 +51,7 @@ Gets the current camera zoom.
 
 ---
 
-## sucata.camera.set_camera_zoom(zoom)
+## sucata.camera.set_camera_zoom
 
 Sets the camera zoom.
 

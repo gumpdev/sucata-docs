@@ -10,7 +10,7 @@ Represents a game object in the scene.
 
 An `Entity` can contain lifecycle functions and any custom properties defined by the user.
 
-### fields
+**fields**
 
 - id? `string`  
   The unique identifier of the entity.  
@@ -38,7 +38,7 @@ An `Entity` can contain lifecycle functions and any custom properties defined by
 
 ---
 
-## sucata.scene.load_scene(entities)
+## sucata.scene.load_scene
 
 Loads a scene with the given entities.
 
@@ -47,7 +47,7 @@ Loads a scene with the given entities.
 
 ---
 
-## sucata.scene.spawn(entity)
+## sucata.scene.spawn
 
 Spawns an entity in the scene.
 
@@ -59,7 +59,7 @@ Spawns an entity in the scene.
 
 ---
 
-## sucata.scene.spawns(entities)
+## sucata.scene.spawns
 
 Spawns multiple entities in the scene.
 
@@ -71,7 +71,7 @@ Spawns multiple entities in the scene.
 
 ---
 
-## sucata.scene.find_by_id(entity_id)
+## sucata.scene.find_by_id
 
 Finds an entity by its ID.
 
@@ -83,7 +83,7 @@ Finds an entity by its ID.
 
 ---
 
-## sucata.scene.destroy(entity_or_id)
+## sucata.scene.destroy
 
 Destroys an entity from the scene.
 
@@ -95,7 +95,7 @@ Destroys an entity from the scene.
 
 ---
 
-## sucata.scene.destroys(entities)
+## sucata.scene.destroys
 
 Destroys multiple entities from the scene.
 
@@ -107,7 +107,7 @@ Destroys multiple entities from the scene.
 
 ---
 
-## sucata.scene.add_tag(entity_or_id, tag)
+## sucata.scene.add_tag
 
 Adds a tag to an entity.
 
@@ -120,7 +120,7 @@ Adds a tag to an entity.
 
 ---
 
-## sucata.scene.has_tag(entity_or_id, tag)
+## sucata.scene.has_tag
 
 Checks if an entity has a tag.
 
@@ -133,7 +133,7 @@ Checks if an entity has a tag.
 
 ---
 
-## sucata.scene.remove_tag(entity_id, tag)
+## sucata.scene.remove_tag
 
 Removes a tag from an entity.
 
@@ -146,7 +146,7 @@ Removes a tag from an entity.
 
 ---
 
-## sucata.scene.get_entities()
+## sucata.scene.get_entities
 
 Gets all entity IDs in the scene.
 
@@ -155,7 +155,7 @@ Gets all entity IDs in the scene.
 
 ---
 
-## sucata.scene.get_entities_by_tag(tag)
+## sucata.scene.get_entities_by_tag
 
 Gets all entity IDs with a specific tag.
 
@@ -167,6 +167,6 @@ Gets all entity IDs with a specific tag.
 
 ---
 
-## sucata.scene.clear_entities()
+## sucata.scene.clear_entities
 
 Clears all entities from the scene.

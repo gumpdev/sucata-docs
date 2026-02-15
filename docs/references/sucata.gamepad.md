@@ -8,7 +8,7 @@ The gamepad module of the Sucata.
 
 Gamepad axis and trigger names.
 
-### values
+**values**
 - `"left_x"`
 - `"left_y"`
 - `"right_x"`
@@ -22,7 +22,7 @@ Gamepad axis and trigger names.
 
 Gamepad button names.
 
-### values
+**values**
 - `"a"`
 - `"b"`
 - `"x"`
@@ -41,7 +41,7 @@ Gamepad button names.
 
 ---
 
-## sucata.gamepad.get_count()
+## sucata.gamepad.get_count
 
 Gets the number of currently connected gamepads.
 
@@ -50,7 +50,7 @@ Gets the number of currently connected gamepads.
 
 ---
 
-## sucata.gamepad.get_axis(axis, device?)
+## sucata.gamepad.get_axis
 
 Gets the axis value of a gamepad.
 
@@ -64,7 +64,7 @@ Gets the axis value of a gamepad.
 
 ---
 
-## sucata.gamepad.is_held(button, device?)
+## sucata.gamepad.is_held
 
 Checks if a button is currently held on the gamepad.
 
@@ -78,7 +78,7 @@ Checks if a button is currently held on the gamepad.
 
 ---
 
-## sucata.gamepad.is_pressed(button, device?)
+## sucata.gamepad.is_pressed
 
 Checks if a button was pressed on the gamepad (only on the frame it was pressed).
 
@@ -92,7 +92,7 @@ Checks if a button was pressed on the gamepad (only on the frame it was pressed)
 
 ---
 
-## sucata.gamepad.is_released(button, device?)
+## sucata.gamepad.is_released
 
 Checks if a button was released on the gamepad.
 

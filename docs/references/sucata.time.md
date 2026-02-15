@@ -8,7 +8,7 @@ The time module of the Sucata game engine.
 
 Configuration table used to create timers.
 
-### fields
+**fields**
 
 - time `number`  
   The duration of the timer in seconds.
@@ -24,7 +24,7 @@ Configuration table used to create timers.
 
 ---
 
-## sucata.time.get_delta()
+## sucata.time.get_delta
 
 Gets the delta time (time elapsed since last frame) in seconds, multiplied by the current time scale.
 
@@ -33,7 +33,7 @@ Gets the delta time (time elapsed since last frame) in seconds, multiplied by th
 
 ---
 
-## sucata.time.get_fps()
+## sucata.time.get_fps
 
 Gets the current frames per second.
 
@@ -42,7 +42,7 @@ Gets the current frames per second.
 
 ---
 
-## sucata.time.create_timer(callback, config)
+## sucata.time.create_timer
 
 Creates a timer with a callback function.
 
@@ -55,7 +55,7 @@ Creates a timer with a callback function.
 
 ---
 
-## sucata.time.pause_timer(timer_id)
+## sucata.time.pause_timer
 
 Pauses a timer.
 
@@ -64,7 +64,7 @@ Pauses a timer.
 
 ---
 
-## sucata.time.stop_timer(timer_id)
+## sucata.time.stop_timer
 
 Stops a timer.
 
@@ -73,7 +73,7 @@ Stops a timer.
 
 ---
 
-## sucata.time.get_time_scale()
+## sucata.time.get_time_scale
 
 Gets the current time scale value.
 
@@ -82,7 +82,7 @@ Gets the current time scale value.
 
 ---
 
-## sucata.time.set_time_scale(time_scale)
+## sucata.time.set_time_scale
 
 Sets the time scale.
 

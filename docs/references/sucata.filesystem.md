@@ -4,7 +4,7 @@ The filesystem module of the Sucata.
 
 ---
 
-## sucata.filesystem.exists(path)
+## sucata.filesystem.exists
 
 Checks if a file or directory exists.
 
@@ -16,7 +16,7 @@ Checks if a file or directory exists.
 
 ---
 
-## sucata.filesystem.remove(path)
+## sucata.filesystem.remove
 
 Removes a file or directory.
 
@@ -25,7 +25,7 @@ Removes a file or directory.
 
 ---
 
-## sucata.filesystem.mkdir(path)
+## sucata.filesystem.mkdir
 
 Creates a new directory.
 
@@ -34,7 +34,7 @@ Creates a new directory.
 
 ---
 
-## sucata.filesystem.read_file(path)
+## sucata.filesystem.read_file
 
 Reads the contents of a file as a string.
 
@@ -46,7 +46,7 @@ Reads the contents of a file as a string.
 
 ---
 
-## sucata.filesystem.read_dir(path)
+## sucata.filesystem.read_dir
 
 Lists the contents of a directory.
 
@@ -58,7 +58,7 @@ Lists the contents of a directory.
 
 ---
 
-## sucata.filesystem.write(path, content)
+## sucata.filesystem.write
 
 Writes content to a file.
 
@@ -71,7 +71,7 @@ Writes content to a file.
 
 ---
 
-## sucata.filesystem.rename(old_path, new_path)
+## sucata.filesystem.rename
 
 Renames a file or directory.
 

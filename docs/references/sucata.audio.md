@@ -4,7 +4,7 @@ The audio module of the Sucata.
 
 ---
 
-## sucata.audio.play(props)
+## sucata.audio.play
 
 Plays a sound and returns its ID.
 
@@ -21,7 +21,7 @@ Plays a sound and returns its ID.
 
 ---
 
-## sucata.audio.stop(sound_id)
+## sucata.audio.stop
 
 Stops a playing sound.
 
@@ -30,7 +30,7 @@ Stops a playing sound.
 
 ---
 
-## sucata.audio.pause(sound_id)
+## sucata.audio.pause
 
 Pauses a playing sound.
 
@@ -39,7 +39,7 @@ Pauses a playing sound.
 
 ---
 
-## sucata.audio.unpause(sound_id)
+## sucata.audio.unpause
 
 Unpauses a paused sound.
 
@@ -48,7 +48,7 @@ Unpauses a paused sound.
 
 ---
 
-## sucata.audio.get_volume(sound_id)
+## sucata.audio.get_volume
 
 Gets the volume of a specific sound.
 
@@ -60,7 +60,7 @@ Gets the volume of a specific sound.
 
 ---
 
-## sucata.audio.set_volume(sound_id, volume)
+## sucata.audio.set_volume
 
 Sets the volume of a specific sound.
 
@@ -70,7 +70,7 @@ Sets the volume of a specific sound.
 
 ---
 
-## sucata.audio.get_pitch(sound_id)
+## sucata.audio.get_pitch
 
 Gets the pitch of a specific sound.
 
@@ -82,7 +82,7 @@ Gets the pitch of a specific sound.
 
 ---
 
-## sucata.audio.set_pitch(sound_id, pitch)
+## sucata.audio.set_pitch
 
 Sets the pitch of a specific sound.
 
@@ -92,7 +92,7 @@ Sets the pitch of a specific sound.
 
 ---
 
-## sucata.audio.get_group_volume(group_id)
+## sucata.audio.get_group_volume
 
 Gets the volume of an audio group.
 
@@ -104,7 +104,7 @@ Gets the volume of an audio group.
 
 ---
 
-## sucata.audio.set_group_volume(group_id, volume)
+## sucata.audio.set_group_volume
 
 Sets the volume of an audio group.
 
@@ -114,7 +114,7 @@ Sets the volume of an audio group.
 
 ---
 
-## sucata.audio.get_group_pitch(group_id)
+## sucata.audio.get_group_pitch
 
 Gets the pitch of an audio group.
 
@@ -126,7 +126,7 @@ Gets the pitch of an audio group.
 
 ---
 
-## sucata.audio.set_group_pitch(group_id, pitch)
+## sucata.audio.set_group_pitch
 
 Sets the pitch of an audio group.
 
