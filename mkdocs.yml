@@ -40,4 +40,17 @@ nav:
           - Overview: getting-started/first-project/overview.md
           - Configuring the Project: getting-started/first-project/configuring-project.md
           - Creating a Player: getting-started/first-project/creating-player.md
+  - CLI: cli.md
+  - References:
+    - sucata.audio: references/sucata.audio.md
+    - sucata.camera: references/sucata.camera.md
+    - sucata.events: references/sucata.events.md
+    - sucata.filesystem: references/sucata.filesystem.md
+    - sucata.gamepad: references/sucata.gamepad.md
+    - sucata.graphic: references/sucata.graphic.md
+    - sucata.input: references/sucata.input.md
+    - sucata.math: references/sucata.math.md
+    - sucata.scene: references/sucata.scene.md
+    - sucata.time: references/sucata.time.md
+    - sucata.window: references/sucata.window.md
   - About: about.md

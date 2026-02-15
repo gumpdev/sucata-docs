@@ -17,8 +17,9 @@ local Player = Object:extend()
 function Player:new(x, y)
     self.x = x
     self.y = y
-		self.width = 64
-		self.height = 64
+		self.width = 64 -- width of the player
+		self.height = 64 -- height of the player
+		self.speed = 300 -- speed of the player
 end
 
 -- This is a function that will be called by the engine every frame, and we can use it to draw the player on the screen
@@ -41,9 +42,27 @@ scene.
 ```lua
 local Player = require("player")
 
-sucata.scene.spawn(Player(480, 270)) -- Spawn the player in the center of the screen
+sucata.scene.spawn(Player(480, 500)) -- Spawn the player in the center of the screen
 ```
 
 The game should show like this:
 
 ![Player Entity](./images/first-entity-draw.png)
+
+Now we will make the player move around the screen using the arrow keys.
+
+to get the input from the player we will use the `sucata.input`, and we need to get the delta, that is the time passed between frames.
+
+```lua
+
+function Player:update() -- This a callback from sucata that be called all frame
+	local delta = sucata.time.get_delta() -- The time between frames
+	if sucata.input.is_held("a", "left") then -- Check if the keys "a" or "left arrow" are pressed
+		self.x = self.x - self.speed * delta -- Add a value to x 
+	end
+	if sucata.input.is_held("d", "right") then
+		self.x = self.x + self.speed * delta
+	end
+end
+
+```

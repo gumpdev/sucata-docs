@@ -25,3 +25,8 @@ just in lua codes.
 
 It designed using OOP on Lua, so works very well with
 [classic](https://github.com/rxi/classic)
+
+### Objective
+
+Create a game framework that is simple to use, with a simple workflow, and
+lightweight, for developing simple games.
