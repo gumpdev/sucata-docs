@@ -1,4 +1,4 @@
-> Warning!
+> [!WARNING]
 > This repository has [moved to codeberg](https://codeberg.org/sucata/docs/)
 
 
