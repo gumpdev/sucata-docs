@@ -1,3 +1,7 @@
+> Warning!
+> This repository has [moved to codeberg](https://codeberg.org/sucata/docs/)
+
+
 # Sucata Docs
 
 This is the documentation webpage of
